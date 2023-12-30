@@ -1,50 +1,46 @@
-body{
-    background-color: #000;
-    color: white;
+body 
+{
+  background-color: #000;
+  color: white;
 }
 
 
-.cursor {
-    display: inline-block;
-    width: 8px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    background-color: white; /* Cursor color */
-    animation: blink 0.8s infinite; /* Blink animation */
-  }
+#dollar 
+{
+  color: green;
+}
+
+input 
+{
+  background-color:black;
+  caret-color: white;
+  color: white;
   
-  @keyframes blink {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-
-
-.inputLine
-
-{
-   
-    display: flex;
-      
+  border: none;
+  outline: none;
 }
 
-#oldData
-{
-    margin-bottom: -20px;
-    
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-#inputArrow
+.error
 {
-    margin-right: 1px;
+  color: red;
 }
 
-#arrow
+.neutral
 {
-    color: green;
+  color: white;
+}
+
+.postive
+{
+  color: green;
+}
+
+.negative
+{
+  color: red;
 }
